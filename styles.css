@@ -1,0 +1,20 @@
+body {
+  overscroll-behavior: none;
+  touch-action: none;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Retro text stroke effect */
+.text-stroke {
+  -webkit-text-stroke: 3px black;
+}
+
+.text-stroke-sm {
+  -webkit-text-stroke: 1.5px black;
+}
